@@ -1,6 +1,8 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 
+const int WIDTH = 800, HEIGHT = 600;
+
 int main() {
   SDL_Window *window;
   SDL_Renderer *renderer;
