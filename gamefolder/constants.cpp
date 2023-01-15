@@ -10,3 +10,10 @@
  * 
  * Creators: Bian, Anjelica; Ketterer, Em
 */
+
+int LENGTH_OF_BOX; // the width and height of the grid box/snake unit
+
+//speed of the apple
+int FRAME_RATE;
+int MAX_MULTIPIER;
+int MIN_MULTIPLIER;

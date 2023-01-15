@@ -3,20 +3,37 @@
  * 
 */
 
+
+/**
+ * Attributes: (private)
+ * x
+ * y
+ * music note
+ * 
+ * Method:
+ * getter (setter?) (public)
+ * x
+ * y
+ * music notes
+*/
+class Position{
+
+};
+
 /**
  * This class will act as a helper to the Snake class. 
  * It is a square/circle (TBD) of the same width/height as each square in the grid.
  * 
  * Attribute
- * width
- * height
+ * width (in constants), divisible by 2
+ * height (in constants), divisible by 2
  * x
  * y
  * forward reference (SnakeUnit class)
  * 
  * Methods
- * getter x
- * getter y
+ * getter x (public)
+ * getter y (public)
 */
 class SnakeUnit{
 
@@ -39,9 +56,12 @@ class SnakeUnit{
  *  Initial length (in constant)
  * head: snakeunit object
  * tail: snakeunit object
+ * speed: multiplier for frame rate
  * 
  * methods:
- * return length
+ * getter for speed
+ * DEF setter for speed (changed with speedapple)
+ * return length (public)
  * increment length
 */
 class Snake{
@@ -64,6 +84,10 @@ class LengthApple : public FoodItem{
 
 };
 
+/**
+ * method:
+ * change speed: changes the speed of the apple
+*/
 class SpeedApple : public FoodItem{
 
 };
