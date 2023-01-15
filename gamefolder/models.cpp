@@ -4,17 +4,6 @@
 */
 
 /**
- * Returns the x-position of the 
-*/
-int positionX(Snake object){
-
-}
-
-int positionX(FoodItem object){
-    
-}
-
-/**
  * This class will act as a helper to the Snake class. 
  * It is a square/circle (TBD) of the same width/height as each square in the grid.
  * 
