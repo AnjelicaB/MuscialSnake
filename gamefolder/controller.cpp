@@ -8,3 +8,9 @@
  * 
  * Creators: Bian, Anjelica; Ketterer, Em
 */
+
+//////generating the apples//////
+// a range (random number generator then round) to find the positions to generate
+// a list of occupied positions from the snake
+// a list of occupied positions from the apples
+// Some function to create the objects and put them in a list
