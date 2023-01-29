@@ -9,6 +9,7 @@
  * This class contains the relative x and y positions.
  * For example, x = 1 and y = 3 means that the object is positioned 
  * at the 1st grid horizontally and 3rd grid vertically.
+ * Role: Anjelica
 */
 class Position{
 //  Attributes: (private)
@@ -28,6 +29,7 @@ class Position{
 /**
  * This class will act as a helper to the Snake class. 
  * It is a square/circle (TBD) of the same width/height as each square in the grid.
+ * Role: Em
 */
 class SnakeUnit{
 //  Attribute
@@ -55,6 +57,7 @@ class SnakeUnit{
  * The head will determine where to add another unit when the snake moves.
  * The tail will have a forward reference attribute to determine
  * where the next tail will be when the tail is removed.
+ * Role: Em
 */
 class Snake{
 // Attributes: 
@@ -77,7 +80,7 @@ class Snake{
  * position
  * 
  * Method:
- * 
+ * Role: Anjelica
 */
 class LengthApple{
 
@@ -89,6 +92,7 @@ class LengthApple{
  * 
  * Method:
  * change speed: changes the speed of the snake
+ * Role: Anjelica
 */
 class SpeedApple{
 
