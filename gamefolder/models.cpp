@@ -17,7 +17,16 @@
  * music notes
 */
 class Position{
-
+    private:
+        int x, y;
+        // make some music object
+    public:
+        int getX(){
+            return x;
+        }
+        int getY(){
+            return y;
+        }
 };
 
 /**
