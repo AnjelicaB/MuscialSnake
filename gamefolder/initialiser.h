@@ -14,7 +14,7 @@
  * returns 1 if either of the init calls fail
 */
 
-int main(){
+int initialiser_calls(){
     if(SDL_Init(SDL_INIT_EVERYTHING) < 0) {
         printf("SDL_Init failed: %s\n", SDL_GetError());
         return 1;

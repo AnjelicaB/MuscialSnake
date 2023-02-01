@@ -9,7 +9,13 @@
  * Creators: Bian, Anjelica; Ketterer, Em
 */
 
-# include <constants.h>
+# include "constants.h"
+# include "initialiser.h"
+
+
+// reference to window and renderer
+SDL_Window *window;
+SDL_Renderer *renderer;
 
 //////generating the apples//////
 // a range (random number generator then round) to find the positions to generate
@@ -18,5 +24,8 @@
 // Some function to create the objects and put them in a list
 
 int loadScreen(){
-    
+    if(initialiser_calls() == 1) return 1;
+
+    window = SDL_CreateWindow("MusicalSnakes", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0);
+    renderer = SDL_CreateRenderer(window, -1, 0);
 }
