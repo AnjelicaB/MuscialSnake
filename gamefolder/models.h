@@ -21,12 +21,9 @@ class Position{
         int x, y;
         // make some music object
     public:
-        int getX(){
-            return x;
-        }
-        int getY(){
-            return y;
-        }
+        Position(int x, int y);
+        int getX();
+        int getY();
 };
 
 /**
@@ -49,26 +46,13 @@ class SnakeUnit{
         SnakeUnit *previous;
         Position position;
     public:
-        SnakeUnit(Position position, SnakeUnit previous){
-            previous = previous;
-            position= position;
-        }
+        SnakeUnit(Position position, SnakeUnit* previous);
         // constructor with no previous for head
-        SnakeUnit(Position position){
-            position = position;
-        }
-        SnakeUnit getPrev(){
-            return *previous;
-        }
-        Position getPos(){
-            return position;
-        }
-        void setPrev(SnakeUnit *ptr){
-            previous = ptr;
-        }
-        void setPos(Position pos){
-            position = pos;
-        }
+        SnakeUnit(Position position);
+        SnakeUnit getPrev();
+        Position getPos();
+        void setPrev(SnakeUnit *ptr);
+        void setPos(Position pos);
 
 
 };
