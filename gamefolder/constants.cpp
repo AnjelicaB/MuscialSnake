@@ -19,3 +19,7 @@ int LENGTH_OF_BOX; // the width and height of the grid box/snake unit
 int SPEED_FRAME_RATE;
 int MAX_SPEED_MULTIPIER;
 int MIN_SPEED_MULTIPLIER;
+
+//screen size
+int SCREEN_WIDTH = 900;
+int SCREEN_HEIGHT = 600;
