@@ -9,6 +9,8 @@
  * Creators: Bian, Anjelica; Ketterer, Em
 */
 
+# include <constants.h>
+
 //////generating the apples//////
 // a range (random number generator then round) to find the positions to generate
 // a list of occupied positions from the snake
