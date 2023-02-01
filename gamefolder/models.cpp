@@ -6,12 +6,12 @@
 
 /**
  * Attributes: (private)
- * x
- * y
- * music note
+ * x (int)
+ * y (int)
+ * music note (some object...)
  * 
  * Method:
- * getter (setter?) (public)
+ * getter (public)
  * x
  * y
  * music notes
@@ -139,13 +139,13 @@ class Snake{
 
 /**
  * Attribute
- * x
- * y
+ * position (position object)
  * Methods
  * getter x
  * getter y
 */
 class FoodItem{
+    Position position;
 
 };
 
