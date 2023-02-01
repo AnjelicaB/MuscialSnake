@@ -1,6 +1,6 @@
 /**
  * This file will contain all of the classes necessary for the game
- * 
+ *
 */
 
 
@@ -63,10 +63,10 @@ class SnakeUnit{
         Position getPos(){
             return position;
         }
-        SnakeUnit setPrev(SnakeUnit *ptr){
+        void setPrev(SnakeUnit *ptr){
             previous = ptr;
         }
-        Position setPos(Position pos){
+        void setPos(Position pos){
             position = pos;
         }
 
